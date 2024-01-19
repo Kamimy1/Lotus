@@ -9,3 +9,7 @@ Con este proyecto se buscó una aplicación sencilla de utilizar además de incl
 Para poder descargar y probar la aplicación podéis acceder a su web: https://lotus.africabermudezmejias.es o descargar la Apk que esta en este repositorio. Además se puede descargar la documentación del proyecto para ver el **Manual de usuario** o como se ha realizado el proyecto.
 
 Cualquier duda podeis enviar un correo a africabermudez2003@gmail.com o lotus.soporte@gmail.com
+
+## Disclaimer
+
+Los datos de conexión a la base de datos han sido borrandos, por lo que la aplicación no funcionará si no se rellenan los campos necesarios del archivo **google-services.json**
