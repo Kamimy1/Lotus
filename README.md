@@ -6,4 +6,6 @@ Esta aplicación fue creada para el Trabajo de Fin de Grado del Grado Superior d
 
 Con este proyecto se buscó una aplicación sencilla de utilizar además de incluir funciones que en otras aplicaciones son de pago.
 
-Para poder descargar y probar la aplicación podéis acceder a su web: https://lotus.africabermudezmejias.es o descargar la Apk que esta en este repositorio.
+Para poder descargar y probar la aplicación podéis acceder a su web: https://lotus.africabermudezmejias.es o descargar la Apk que esta en este repositorio. Además se puede descargar la documentación del proyecto para ver el **Manual de usuario** o como se ha realizado el proyecto.
+
+Cualquier duda podeis enviar un correo a africabermudez2003@gmail.com o lotus.soporte@gmail.com
