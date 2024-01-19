@@ -12,4 +12,4 @@ Cualquier duda podeis enviar un correo a africabermudez2003@gmail.com o lotus.so
 
 ## Disclaimer
 
-Los datos de conexión a la base de datos han sido borrandos, por lo que la aplicación no funcionará si no se rellenan los campos necesarios del archivo **google-services.json**
+Los datos de conexión a la base de datos han sido borrados por seguridad y privacidad a los usuarios, por lo que la aplicación no funcionará si no se rellenan los campos necesarios del archivo **google-services.json**
