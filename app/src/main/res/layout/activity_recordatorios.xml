@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".RecordatoriosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/coral_pink"
+            android:elevation="4dp"
+            app:titleTextColor="@color/white"
+            app:layout_scrollFlags="scroll|enterAlways">
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/capriola"
+            android:text="Anticonceptivos orales"
+            android:textColor="@color/mauve_oscuro"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtSelectedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/capriola"
+            android:text="Hora seleccionada: "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:id="@+id/timePicker"
+            android:timePickerMode="clock"
+            android:numbersSelectorColor="@color/mauve"
+            android:headerBackground="@color/mauve_oscuro"/>
+
+        <Button
+            android:id="@+id/anticonceptivos_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="40dp"
+            android:backgroundTint="@color/coral_pink"
+            android:fontFamily="@font/capriola"
+            android:text="Añadir un recordatorio de pastilla"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18dp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
